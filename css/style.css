@@ -28,8 +28,6 @@ img{
     display: flex;
     justify-content: space-between;
 }
-.logo-area {
-}
 .menu {
     display: flex;
     justify-content: center;
@@ -78,11 +76,53 @@ img{
 .menu-item.active a::after {
     width: 100%;
 }
-.fas {
+
+/* =================
+    Hero Area styles
+================== */
+
+.banner-section {
+    background: #003a40;
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
 }
-.fa-bars {
+.banner-area {
+    display: flex;
+}
+.banner-title h2{
+    color: #fff;
+    font-size: 36px;
 }
 
+.banner {
+    width: 300px;
+}
+div#banner_right {
+    flex-grow: 1;
+}
+.text{
+  color: #fff;  
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.text img{
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+.text h3{
+    padding-bottom: 30px;
+}
+blockquote{
+    color: #fff;
+}
+blockquote p::before {
+    content: '\201C';
+}
+blockquote figcaption{
+    font-style: italic;
+    padding-top: 10px;
+}
 
 
 
